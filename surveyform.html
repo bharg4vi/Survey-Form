@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+   
+
+<Header>
+<h1 id="title">Online Food Ordering Services Survey Form  </h1>
+
+</header> 
+
+<Body> 
+    <section>
+<p id="description">
+ <b>Answer the questions below:</b>
+</p>
+</section>
+
+<form id="survey-form">
+
+<div class="input-headings">
+    
+  
+  <label for="name" id="name-label"> Name </label>
+  <input id="name" type="text" name="name" placeholder="Bhargavi Kamble" class="form-inputs" required> </input>   
+<br>        
+  <label for="email" id="email-label"> Email </label>
+  <input id="email" type="email" name="email" placeholder="bhargavi@gmail.com" class="form-inputs" required> </input>
+<br>
+  <label for="number" id="number-label"> Age </label>
+  <input id="number" type="number" name="number" min="12" max="60" placeholder="25" class="form-inputs" required> </input>
+<br>
+
+<label for="dropdown" id="model" style="width: 90vw;"> Select type of food you order: </label>
+  <select id="dropdown">
+    <option value = "i">Breakfast</option>
+    <option value = "ii"> Dessert</option>
+    <option value = "iii"> Fast-food</option>
+    <option value = "iv"> Full-Course Meal</option>
+    
+  </select>
+<br>
+<br>
+
+<label for="site" id="site"> <b>Application you use to order food:</b> </label>
+<br>
+  <input id="site" type="radio" name="color" value="swiggy">
+  <label for="site"> Swiggy </label>
+<br>
+  <input id="site" type="radio" name="color" value="zomato">
+  <label for="site"> Zomato </label>
+<br>
+  <input id="site" type="radio" name="color" value="Other">
+  <label for="site"> Other </label>
+<br>
+<br>
+                           
+<label for="features"> <b>Select Criteria You See While Ordering Food Online:</b></label>
+ <br>
+
+  <input id="checkbox" type="checkbox" name="features" value="time">
+  <label for="checkbox">Fastest Serving Restaurants</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="offers">
+  <label for="checkbox">Restaurants Offering Various Offers</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="ratings">
+  <label for="checkbox">Highest Rated Restaurants</label>          
+<br>
+<br>
+
+<label id="textarea">Any Other Feedback: </label>
+<br>
+<textarea id="textarea" name"feedback" rows="5" cols="59.5">
+</textarea>
+<br>
+  
+<input id="submit" type="submit" value="Submit" class="submit-button">
+
+  </div>
+  
+</form>
+
+</body>
+
+
+</html>
